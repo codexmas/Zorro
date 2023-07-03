@@ -1,0 +1,28 @@
+# Backup Files
+*.bkp
+
+# Misc
+.local
+.viminfo
+.wget-hsts
+.Xauthority
+.bash_history
+.bash_logout
+.cache
+.config
+crowsnest
+CanBoot
+kiauh
+klipper
+mainsail-config
+mainsail
+moonraker-timelapse
+moonraker
+print_area_bed_mesh
+printer_data/.moonraker.uuid
+printer_data/backup
+printer_data/comms
+printer_data/logs
+printer_data/moonraker.asvc
+printer_data/systemd
+sonar
