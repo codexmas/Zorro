@@ -1,5 +1,6 @@
 # Backup Files
 *.bkp
+printer_data/config/printer-*.cfg
 
 # Misc
 .local
