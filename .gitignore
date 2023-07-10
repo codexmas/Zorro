@@ -19,6 +19,8 @@ mainsail-config
 mainsail
 moonraker-timelapse
 moonraker
+beacon_klipper
+u2c
 print_area_bed_mesh
 printer_data/.moonraker.uuid
 printer_data/backup
