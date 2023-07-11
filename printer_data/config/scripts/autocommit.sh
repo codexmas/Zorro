@@ -7,6 +7,9 @@
 ### Path to your config folder you want to backup
 config_folder=~/printer_data/config
 
+### Path to your moonraker folder you want to backup
+database_folder=~/printer_data/database
+
 ### Path to your Klipper folder, by default that is '~/klipper'
 klipper_folder=~/klipper
 
@@ -53,6 +56,11 @@ push_config(){
   cd $config_folder
   git pull
   git add .
+
+  cd $database_folder
+  git pull
+  git add .
+
   current_date=$(date +"%Y-%m-%d %T")
   git commit -m "Autocommit from $current_date" -m "$m1" -m "$m2" -m "$m3" -m "$m4"
   git push
