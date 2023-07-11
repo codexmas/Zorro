@@ -11,6 +11,7 @@ printer_data/config/printer-*.cfg
 .bash_logout
 .cache
 .config
+.ssh
 crowsnest
 CanBoot
 kiauh
@@ -28,4 +29,5 @@ printer_data/comms
 printer_data/logs
 printer_data/moonraker.asvc
 printer_data/systemd
+printer_data/config/.theme
 sonar
